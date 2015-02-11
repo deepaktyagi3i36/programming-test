@@ -1,0 +1,104 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header{
+  width: 97%;
+  height: 28px;
+  background-color: orange;
+  padding: 20px;
+
+  .left-content{
+    float: left;
+  }
+
+  .right-content{
+    float: right;
+  }
+}
+
+.button{
+  background-color: #0000FF;
+  color: #FFFFFF;
+  height: 37px;
+  width: 103px;
+}
+
+.active-btn{
+   background-color: #ffffff !important;
+   color: black !important; 
+ }
+
+.footer{
+  background-color: #000000;
+  color: #FFFFFF;
+  float: left;
+  height: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 97%;
+}
+
+.side-content{
+  float: left;
+  width: 17%;
+  height: 500px;
+  padding: 20px;
+  background-color: #7777D6;
+}
+
+.main-content{
+  float: left;
+  width: 78%;
+  height: 400px;
+}
+
+.align-center{ text-align: center; }
+label{ color: white; }
+.top-panel { padding: 10px; }  
+.box{ width: 270px; height: 219px; background-color: #A03636; display: -moz-inline-stack; padding:20px; }  
+.box-d{ width: 400px; height: 50px; background-color: #C4FCC4; display: -moz-inline-stack; padding:20px; }  
+
+
+// Box A 
+.box span{
+  margin-top: 10px;
+}
+
+.box .black{
+  height:50px;
+  width: 50px;
+  border: 1px solid red;
+  display: block;
+}
+
+.box .blue{
+  height:50px;
+  width: 50px;
+  border: 1px solid white;
+  display: block;
+  background-color: blue;
+}
+.hide { display: none !important; }
+.black-box { background-color: black; }
+.white-box { background-color: white; }
+
+// Box B
+.box-b {
+  width: 310px; height: 259px; background-color: #ffffff; display: inline-block;
+  
+  .small{
+    width: 120px !important;
+  }   
+}
+
+// Box C
+.box-c{
+  .error{ border: 1px solid red;}
+  .error_text{display: block; color: red;}
+}  
+
+// Button D
+.button_d{
+ margin-top: 395px;
+}

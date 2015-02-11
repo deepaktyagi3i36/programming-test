@@ -1,0 +1,36 @@
+%div.side-content
+  .item Item 1
+  .item Item 2
+  .item Item 3
+
+  %button.button.button_d Button D
+
+.main-content
+  .top-panel
+    .box-a.box
+      Box A
+      %span.black.black-box
+      %span.blue
+
+    .box-b
+      .box
+        Box B
+
+    .box-c.box
+      = form_tag '/user/create', id: 'userForm', remote: true do
+        %label First Name
+        = text_field_tag :fname, nil, data: {type: 'required', message: "Can't be blank"}, name: 'user[fname]'
+        %label Middle Name
+        = text_field_tag :mname, nil, name: 'user[mname]'
+        %label Last Name
+        = text_field_tag :lname, nil, data: {type: 'required', message: "Can't be blank"}, name: 'user[lname]'
+        
+      %br
+      = button_tag 'Button C', class: 'button_c button'
+
+      %br
+      %br
+      Box C
+
+  .align-center
+    .box-d Box D

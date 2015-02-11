@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Programming Test</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<header class='header'>
+  <div class="left-content"> Header </div>
+  <div class="right-content">
+    <button class="button_a button"> Button A </button>
+    <button class="button_b button"> Button B </button>
+  </div>
+</header>
+
+<%= yield %>
+
+</body>
+<footer class='footer'> Footer </footer>
+</html>
