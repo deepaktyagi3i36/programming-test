@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require button_a
+//= require button_b
+//= require button_c
+//= require button_d
